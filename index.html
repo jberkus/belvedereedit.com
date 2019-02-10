@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+ <title>Belvedere Editorial and Research</title>
+ <meta http-equiv="content-style-type" content="text/css"/>
+ <meta http-equiv="imagetoolbar" content="no"/>
+ <link rel="shortcut icon" href="favicon.ico"/>
+ <link href="/css.css" type="text/css" rel="stylesheet"/>
+ <script type="text/javascript" language="JavaScript">
+var d=document;
+function decodeAddr(pAddr, domId){
+ var cAddr=" ";
+ for(i=0; i < cAddr.length; i+=2){
+  piece=pAddr.substring(i,i+2);
+  cAddr=cAddr.concat(piece.charAt(1), piece.charAt(0));
+ }
+ cAddr=cAddr.link("mailto:"+cAddr.substring(1,cAddr.length));
+ d.getElementById(domId).innerHTML=cAddr;
+}
+ </script>
+</head>
+<body>
+<img src="i/bg.jpg" alt="Belvedere Editorial and Research" id="bg"/>
+<div id="centerer" align="center"><div id="front"/>
+ <a href="about.html"><img src="i/about_f.png" alt="About Kris" id="abf"/></a>
+ <a href="services.html"><img src="i/services_f.png" alt="Services" id="svf"/></a>
+ <div id="fcontent">
+<p style="color:#DF3C11;">Freelance editorial, art and rights research</br />for publication.  Grantwriting for nonprofits.</p>
+<p>Kris Ashley, Editor<br/>
+<br/>
+Portland, OR, USA<br/>
+<br/>
+Phone: 971-801-8013<br/>
+<br />
+Email: <span id="e1" onmouseover="decodeAddr('rksib@leevederdetic.mo','e1')"><em>(hover to reveal)</em></span></p>
+ </div>
+</div></div>
+</body>
+</html>
